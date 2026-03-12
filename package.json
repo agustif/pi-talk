@@ -1,6 +1,6 @@
 {
-  "name": "@agustif/pi-talk",
-  "version": "1.0.0",
+  "name": "pi-talk",
+  "version": "1.0.1",
   "description": "Streaming TTS extension for Pi with visible-thinking narration, hidden-thinking TLDRs, and tool announcements",
   "main": "index.ts",
   "type": "module",

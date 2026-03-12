@@ -42,10 +42,10 @@ pi install git:github.com/agustif/pi-talk
 
 ### npm package
 
-Package metadata is prepared as `@agustif/pi-talk`, but the package is not published yet. Once published, the intended install target is:
+Package metadata is prepared as `pi-talk`, and the intended install target is:
 
 ```bash
-pi install npm:@agustif/pi-talk
+pi install npm:pi-talk
 ```
 
 ## Quick Start
@@ -236,4 +236,4 @@ Then inspect:
 
 ## Status
 
-This repository is prepared as a standalone `pi-talk` package and GitHub repo. It has not been published to npm yet.
+This repository is prepared as a standalone `pi-talk` package and GitHub repo.

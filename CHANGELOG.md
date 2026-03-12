@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Changed
+- Renamed the npm package from `@agustif/pi-talk` to unscoped `pi-talk`
+- Added role-specific voices for talk, thinking, and tool announcements
+- Added hidden-thinking TLDR playback and tool-call announcement toggles
+
 ### Fixed
 - Fixed text being swallowed and not appearing/speaking in TUI
   - Root cause: `message_end` handler was calling `stopAudio()` which killed ongoing speech
