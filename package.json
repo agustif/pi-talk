@@ -1,0 +1,46 @@
+{
+  "name": "@agustif/pi-talk",
+  "version": "1.0.0",
+  "description": "Streaming TTS extension for Pi with visible-thinking narration, hidden-thinking TLDRs, and tool announcements",
+  "main": "index.ts",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "tts",
+    "text-to-speech",
+    "audio"
+  ],
+  "author": "agustif",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustif/pi-talk.git"
+  },
+  "bugs": "https://github.com/agustif/pi-talk/issues",
+  "homepage": "https://github.com/agustif/pi-talk#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.57.1",
+    "@mariozechner/pi-tui": "^0.57.1"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "CHANGELOG.md",
+    "DEBUG.md",
+    "IMPLEMENTATION.md",
+    "RACE-CONDITION-FIX.md",
+    "STREAMING.md",
+    "TEXT-SWALLOW-FIX.md",
+    "test-streaming.cjs",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "index.ts"
+    ]
+  }
+}
